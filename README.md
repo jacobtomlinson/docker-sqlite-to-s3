@@ -61,8 +61,8 @@ docker run \
 | --------------- |:---------------:| -----:| -----:| --------:|
 | `S3_BUCKET`               | Name of bucket | `mybucketname` | None | No |
 | `S3_KEY_PREFIX` | S3 directory to place files in | `backups` or `backups/sqlite` | None | Yes |
-| `AWS_ACCESS_KEY_ID`       | AWS Access key | `AKIAIOSFODNN7EXAMPLE` | None      | Yes (if using instance role) |
-| `AWS_SECRET_ACCESS_KEY`   |  AWS Secret Key |  `wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY` | None   | Yes (if using instance role) |
+| `AWS_ACCESS_KEY_ID`       | AWS Access key | `AKIAIO...` | None      | Yes (if using instance role) |
+| `AWS_SECRET_ACCESS_KEY`   |  AWS Secret Key |  `wJalrXUtnFE...` | None   | Yes (if using instance role) |
 | `AWS_DEFAULT_REGION`   | AWS Default Region | `us-west-2`    | `us-west-1`   | Yes |
 | `DATABASE_PATH` | Path of database to be backed up (within the container)   | `/myvolume/mydb.db` | `/data/sqlite3.db`   | Yes |
 | `BACKUP_PATH` | Path to write the backup (within the container)  | `/myvolume/mybackup.db` | `${DATABASE_PATH}.bak`   | Yes |
