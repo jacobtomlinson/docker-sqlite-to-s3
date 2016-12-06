@@ -1,4 +1,4 @@
-# Docker SQLite to S3
+# Docker SQLite to S3  [![](https://images.microbadger.com/badges/version/jacobtomlinson/sqlite-to-s3.svg)](https://microbadger.com/images/jacobtomlinson/sqlite-to-s3 "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/jacobtomlinson/sqlite-to-s3.svg)](https://microbadger.com/images/jacobtomlinson/sqlite-to-s3 "Get your own image badge on microbadger.com")
 
 This container periodically runs a backup of a SQLite database to an S3 bucket. It also has the ability to restore.
 
