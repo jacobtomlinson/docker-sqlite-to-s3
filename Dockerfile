@@ -13,4 +13,4 @@ RUN pip --no-cache-dir install awscli
 COPY sqlite-to-s3.sh /usr/bin/sqlite-to-s3
 
 ENTRYPOINT ["/usr/bin/sqlite-to-s3"]
-CMD ["cron", "* 1 * * *"]
+CMD ["cron", "0 1 * * *"]
